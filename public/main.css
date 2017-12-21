@@ -1,9 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Kameron');
+
+body {
+	background-color: #f4f5dc;
+	background-image: url("https://www.transparenttextures.com/patterns/grilled-noise.png");
+}
+
 .searchmatch {
 	font-size: 1.1em;
 	font-weight: bold;
 }
 
-form {
-	margin-top: 10vh;
-	width: 60%;
+#inputText {
+	background: inherit;
+	color: darkgreen;
+}
+
+
+form, #searchResults {
+	margin-top: 5vh;
+	width: 51%;
+}
+
+#submitButton {
+	margin-right: 2px;
+}
+
+button {
+	margin-left: 2px;
+}
+
+.wikiresponse {
+	font-family: 'Kameron', serif;
+	background-color: inherit;
+	border: 1px solid steelblue;
+	border-radius: 5px;
+	padding: 0 10px;
+}
+
+a {
+	color: steelblue;
+	text-decoration: none;
+	transition: all .5s ease-in-out;
+}
+
+a:hover {
+	text-decoration-style: italic;
+	text-decoration: none;
+	color: darkgreen;
+	font-size: 1.1em;
+	transition: all .5s ease-in-out;
 }
