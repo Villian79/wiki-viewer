@@ -9,14 +9,28 @@
     </head>
     <body>
 	<div class="container">
-        <h1>Wikipedia Viewer</h1>
-        <h3>FCC Intermediate Front End Development project.</h3>
-
-        <form>
-            <input id="inputText" type="text">
-            <input id="submitButton" type="submit" value="Submit!">
-        </form>
-
+		<div class="row align-items-center">
+			<div class="col">
+				<h1 class="display-3 text-center">Wikipedia Viewer</h1>
+				<h3 class="text-right">
+					<small class="text-muted">
+						<a href="https://www.freecodecamp.org/challenges/build-a-wikipedia-viewer" target="_blank">FreeCodeCamp</a> Intermediate Front End Development project.
+					</small>
+				</h3>
+				<h3 class="text-right"><small class="text-muted"><em>Tools used: HTML, CSS, Bootstrap, jQuery, D3, AJAX, JS</em></small></h3>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<!-- <div class="col text-center"> -->
+				<form>
+					<div class="form-group">
+						<input class="form-control form-control-lg" id="inputText" type="text" placeholder="Enter your query here...">
+					</div>
+					<input class="btn btn-outline-success" id="submitButton" type="submit" value="Submit!">
+					<button class="btn btn-outline-warning">Lucky choice!</button>
+				</form>
+			<!-- </div> -->
+		</div>
         <div id="searchResults">
 
         </div>
